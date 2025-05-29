@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// 페이지 컴포넌트 임포트
 import MainPage from './pages/MainPage';
 import DailyRecipes from './pages/DailyRecipes';
 import ChallengeRecipes from './pages/ChallengeRecipes';
@@ -10,7 +9,7 @@ import MyPage from './pages/MyPage';
 import FavoritesPage from './pages/FavoritesPage';
 import PostRecipePage from './pages/PostRecipePage';
 import RecipeDetail from './pages/RecipeDetail';
-import LoginPage from './pages/LoginPage';
+import LoginPage from './pages/User/LoginPage.jsx';
 import NotFound from './pages/NotFound';
 
 export default function App() {
